@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Criação da página do google keep">
+    <meta name="author" content="Carlos Alberto">
+    <meta keyboards="google keep">
+    <title>DevNotes</title>
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="favicon.ico" type="">
+    <!-- Estilos  -->
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="stylesheet" href="./src/assets/css/style.css">
+    <!-- Js -->
+    <script src="src/assets/js/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+
+        <h1>DevNotes</h1>
+        <div id="search-container">
+            <i class="bi bi-search"></i>
+            <input type="text" name="" id="search-input" placeholder="Busque por uma nota">
+        </div>
+
+        <button id="export-notes">
+            Esporta CSV <i class="bi bi-download"></i>
+        </button>
+    </header>
+
+
+    <div id="add-note-container">
+        <input type="text" id="note-content" placeholder="O que deseja anotar?">
+        <button class="add-note"><i class="bi bi-plus-lg"></i></button>
+    </div>
+
+    <div id="notes-container">
+        <div class="note">
+            <textarea placeholder="Adicione algum texto"></textarea>
+            <i class="bu bi-pin"></i>
+            <i class="bi bi-x-lg"></i>
+            <i class="bi bi-file-earmark-plus"></i>
+        </div>
+        <div class="note">
+            <textarea placeholder="Adicione algum texto"></textarea>
+            <i class="bu bi-pin"></i>
+            <i class="bi bi-x-lg"></i>
+            <i class="bi bi-file-earmark-plus"></i>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
